@@ -8,6 +8,7 @@
 
 body{
 font-family: 'Roboto', sans-serif;
+color: #212121;
 
 }
 
@@ -54,7 +55,7 @@ font-family: 'Roboto', sans-serif;
 
 .header-link:hover,
 .header-link:focus{
-    color: var(--first-title-color);
+    color: var(--second-title-color);
 }
 
 .number{
@@ -133,7 +134,6 @@ font-family: 'Roboto', sans-serif;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--first-title-color);
 }
 
 .quality-text{
@@ -151,7 +151,6 @@ font-family: 'Roboto', sans-serif;
         line-height: 1.66;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var(--first-title-color);
 }
 
 /* Our team */
@@ -162,7 +161,6 @@ font-family: 'Roboto', sans-serif;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var(--first-title-color);
 }
 
 .team-name{
@@ -171,7 +169,6 @@ font-weight: 500;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--first-title-color);
 }
 
 .team-job{
@@ -226,7 +223,6 @@ font-weight: 500;
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var(--first-title-color);
 }
 
 .btn-list:hover,
@@ -241,7 +237,6 @@ font-weight: 500;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        color: var(--first-title-color);
 }
 
 .portfolio-title{
@@ -251,5 +246,5 @@ font-weight: 500;
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;  
-        color: #757575;
+        color: var(--third-title-color);
 }
