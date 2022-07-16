@@ -113,6 +113,10 @@ color: #212121;
 
 }
 
+.mail:hover,
+.mail:focus {
+    color: #188CE8;
+}
 /* Quality */
 
 .visually-hidden {
