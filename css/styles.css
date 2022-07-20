@@ -26,6 +26,10 @@ color: #212121;
 
 }
 
+.current{
+    color: var(--second-title-color);
+}
+
 .logo{
         font-family: 'Raleway';
         font-weight: 700;
@@ -86,8 +90,11 @@ color: #212121;
 
 /* Hero */
 
+.hero-section{
+    background-color: #2F303A;
+}
+
 .hero-title{
-    background-color: gray;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -113,9 +120,9 @@ color: #212121;
 
 }
 
-.mail:hover,
-.mail:focus {
-    color: #188CE8;
+.hero-button:hover,
+.hero-button:focus {
+    color: #2196F3;
 }
 /* Quality */
 
