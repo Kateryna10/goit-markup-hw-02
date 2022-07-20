@@ -4,11 +4,15 @@
     --third-title-color: #757575;
     --fourth-color: #FFFFFF;
     --logo-color: #000000;
+    --bcg-color: #2F303A;
+    --team-color: #F5F4FA;
+        
 }
 
 body{
-font-family: 'Roboto', sans-serif;
-color: #212121;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+     color: #212121;
 
 }
 
@@ -26,9 +30,7 @@ color: #212121;
 
 }
 
-.current{
-    color: var(--second-title-color);
-}
+
 
 .logo{
         font-family: 'Raleway';
@@ -62,6 +64,10 @@ color: #212121;
     color: var(--second-title-color);
 }
 
+.current {
+    color: var(--second-title-color);
+}
+
 .number{
     font-weight: 500;
     font-size: 14px;
@@ -91,7 +97,7 @@ color: #212121;
 /* Hero */
 
 .hero-section{
-    background-color: #2F303A;
+    background-color: var(--bcg-color);
 }
 
 .hero-title{
@@ -107,8 +113,8 @@ color: #212121;
 
 .hero-button{
         cursor: pointer;
-        background-color: #2196F3;
-        font-family: 'Roboto';
+        background-color: var(--second-title-color);
+        font-family: inherit;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.875;
@@ -117,12 +123,13 @@ color: #212121;
         text-align: center;
         letter-spacing: 0.06em;
         color: var(--fourth-color);
+        border-radius: 4px;
 
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    color: #2196F3;
+    background-color: var(--second-title-color);
 }
 /* Quality */
 
@@ -166,6 +173,14 @@ color: #212121;
 
 /* Our team */
 
+.section-team{
+    background-color: var(--team-color);
+}
+
+.team-list{
+    background-color: var(--fourth-color);
+}
+
 .team{
         font-weight: 700;
         font-size: 36px;
@@ -192,9 +207,14 @@ font-weight: 500;
 
 /* Footer */
 
-.address-list{
-    background-color: gray;
+.address{
+    font-style: normal;
 }
+
+.footer-list{
+    background-color: var(--bcg-color);
+}
+
 
 .address-footer{
     font-size: 14px;
@@ -225,15 +245,21 @@ font-weight: 500;
 
 /* Portfolio */
 
+
+   
+
 .btn-list{
         cursor: pointer;
-        font-family: 'Roboto';
+        font-family: inherit;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
+        border-radius: 4px;
+        background-color: var(--team-color);
+        
 }
 
 .btn-list:hover,
@@ -242,20 +268,27 @@ font-weight: 500;
     background-color: var(--second-title-color);
 }
 
+
+
 .portfolio-list{
-    
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
+        color: #212121;
 }
 
 .portfolio-title{
-        font-family: 'Roboto';
+        font-family: inherit;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;  
         color: var(--third-title-color);
+}
+
+.current-button {
+    background-color: var(--second-title-color);
+    color: var(--fourth-color);
 }
